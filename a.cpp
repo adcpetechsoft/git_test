@@ -6,20 +6,13 @@ int main(int argc, char *argv[])
     int a;
     int b;
 
-    printf("The Multitable program\n\n");
-
-    printf("\t");
-
-    for(a=1; a<=10; a++)
-    {
-        printf("%i\t", a);
-    };
-
     printf("\n");
 
+    printf("The Multitable program\n\n");
+
+
     for(a=1; a<=10; a++)
     {
-        printf("%i\t", a);
         
         for(b=1; b<=10; b++)
         {
@@ -27,7 +20,7 @@ int main(int argc, char *argv[])
 
         };
 
-        printf("\n");
+        printf("\n\n");
 
 
     };
