@@ -20,10 +20,12 @@ int main(int argc, char *argv[])
 
         };
 
-        printf("\n\n");
+        printf("\n");
 
 
     };
+
+    printf("\n");
 
     printf("Program End...\n\n");
 
