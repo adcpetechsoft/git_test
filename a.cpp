@@ -8,7 +8,8 @@ int main(int argc, char *argv[])
 
     printf("\n");
 
-    printf("The Mutiplication Table Program - Test Application\n\n");
+    printf("The Mutiplication Table Program\n");
+    printf("C/C++ Test Application for Unix/Linux\n\n");
 
 
     for(a=1; a<=10; a++)
