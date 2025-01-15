@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 
     printf("The Mutiplication Table Program\n");
     printf("C/C++ Test Application for Unix/Linux\n");
-    printf("For Training purpose, Not for Commercial, Military Use...\n\n");
+    printf("Not for Commercial, Scientific and Military Use...\n\n");
 
 
     for(a=1; a<=10; a++)
