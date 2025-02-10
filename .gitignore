@@ -1,4 +1,6 @@
 #Ignore Binary Files
 ./src/a
 
+#Ignore Visual Studio Code Files
+.vscode
 
