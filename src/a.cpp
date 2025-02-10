@@ -1,25 +1,45 @@
+/*
+Simple C Multiplication Program with X and Y input
+For Git Test Only
+
+Not for Commercial use
+
+*/
+
+// -------------------------------
+// Preprocessor declaration
+
 #include <stdio.h>
 
 
+
+// -------------------------------
+// program Entry Point
 int main(int argc, char *argv[])
 {
+    // variables
+
     int a;
     int b;
 
     int x;
     int y;
 
+    /// actual run
+
+    // Arg test and validation
     if(argc == 3)
     {
-
+        // args convert intu int
         sscanf(argv[1], "%i", &x);
         sscanf(argv[2], "%i", &y);
 
+        // test args range
         if(x>0 && x<=10 && y>0 && y<=10)
         {
 
-             printf("\n");
-
+            // Do if sucess...
+            printf("\n");
 
             printf("The Mutiplication Table Program\n");
             printf("C/C++ Test Application for Unix/Linux\n");
@@ -34,7 +54,6 @@ int main(int argc, char *argv[])
             };
 
             printf("\n");
-
 
             for(a=1; a<=10; a++)
             {
@@ -64,11 +83,9 @@ int main(int argc, char *argv[])
 
                     printf("\t");
             
-
                 };
 
                 printf("\n");
-
 
             };
 
@@ -76,6 +93,7 @@ int main(int argc, char *argv[])
 
         }else
         {
+            // Print if args Out of Range
             printf("ERROR: ARGS Out of Range. [1-10] only...\n\n");
         };
 
@@ -83,6 +101,7 @@ int main(int argc, char *argv[])
 
     }else
     {
+        // Print if args Invalid
         printf("ERROR: No or Invalid ARGS. Input <1-10> <1-10>...\n\n");
     };
 
