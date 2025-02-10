@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
     int a;
     int b;
 
+<<<<<<< HEAD
     int x;
     int y;
 
@@ -36,6 +37,19 @@ int main(int argc, char *argv[])
 
         // test args range
         if(x>0 && x<=10 && y>0 && y<=10)
+=======
+    printf("\n");
+
+    printf("The Mutiplication Table Program\n");
+    printf("C/C++ Test Application for Unix/Linux\n");
+    printf("Not for Commercial, Scientific and Military Use...\n\n");
+
+
+    for(a=1; a<=10; a++)
+    {
+        
+        for(b=1; b<=10; b++)
+>>>>>>> parent of d9bc28c (initial)
         {
 
             // Do if sucess...
