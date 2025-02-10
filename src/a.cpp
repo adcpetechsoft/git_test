@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
                     {
                         if(a<x && b==y)
                         {
-                            printf("x");
+                            printf("*");
                         };
 
                         if(b<y && a==x)
