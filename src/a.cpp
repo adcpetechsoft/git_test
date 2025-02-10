@@ -6,6 +6,11 @@ int main(int argc, char *argv[])
     int a;
     int b;
 
+    if(argc != 2)
+    {
+        printf("ERROR: Input X and Y in args...\n\n");
+    };
+
     printf("\n");
 
     printf("The Mutiplication Table Program\n");
